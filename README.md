@@ -1,2 +1,2 @@
-# Artificial-Intelligence-
+# Artificial-Intelligence
 Implementation of AI Algorithms
