@@ -1,6 +1,6 @@
 /*
 Author : @Rajat Shah
-
+Written: 2013 as a part of Assignment for Aritifial Intelligence course taken at VNIT, Nagpur
 Task: Solving 8-tile puzzle using A* algorithm with Manhattan Distance as Heuristic.
 Comments: Configurations can be done from the macro declarations
 0 can be considered as the blank position
