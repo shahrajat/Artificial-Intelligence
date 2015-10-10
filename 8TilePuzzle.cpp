@@ -51,7 +51,6 @@ struct comp
     }
 };
 
-priority_queue< node*, vector<node*>, comp > openList;       //nodes we haven't yet expanded
 map<string,int> closedList;
 
 int manhattan_distance(node *puzzle)        //heuristic function to calculate distance of source to goal node
@@ -174,6 +173,7 @@ string puzzle_to_string(node *puzzle)
 //the A* algorithm, returns just the number of moves to the goal state, and optionally prints the steps of moves
 int AStar(node *puzzle)
 {
+    priority_queue< node*, vector<node*>, comp > openList;       //nodes we haven't yet expanded
     int numMoves=0;
     openList.push(puzzle);
     string puzzleString;    // the input board configuration in the string
